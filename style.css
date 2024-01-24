@@ -1,0 +1,685 @@
+body{
+    background-image: url(img/body_bg.png);
+    background-color: rebeccapurple;
+    margin: 0%;
+    text-decoration: none;
+
+}
+
+main{
+    margin: 0 8%;
+    background-color: #ffff;
+    background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+
+
+i{
+    color: grey;
+}
+
+.card-logo{
+    opacity: 50%;
+}
+
+.pokeball-logo{
+    opacity: 80%;
+}
+
+.nav-1-main{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px -3px 9px grey;
+
+}
+.nav-2 img{
+    max-width: 28px;
+    max-height: 28px;
+
+}
+
+
+
+.nav-1-section {
+    padding: 7px;
+}
+
+#pokimon-main-selectected-nav{
+    background-color: white;
+    box-shadow: 0px -3px 6px black;
+}
+
+#pokimon-main-about-us-nav{
+    box-shadow: 0px -6px 1px rgb(73, 73, 73);
+}
+
+
+
+
+
+
+.nav-2-section{
+    width: 127.85px;
+    height: 87px;
+    text-align: center;
+    padding: 0 6px;
+    padding-top: 10px;
+    
+}
+
+
+.nav-2-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    background-color: white;
+}
+
+
+.nav-2 a{
+    text-decoration: none;
+    align-items: center;
+    max-width: 127.85px;
+    max-height: 87px;
+}
+
+.nav-2 a{
+    list-style: none;
+    margin: 0%;
+    text-align: center;
+}
+
+.nav-2-main img {
+    width: 28px;
+    height: 28px;
+    
+}
+
+.nav-2-main p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#nav-2-body-1{
+    background-color: rgb(83, 83, 83);
+    
+    border: 0 solid  rgb(83, 83, 83);;
+    border-bottom-width: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+#nav-2-body-1:hover{
+    background-color: rgb(67, 67, 67);
+    color: rgb(209, 209, 209);
+}
+#nav-2-body-1 p{
+    color: white;
+}
+
+
+
+#nav-2-body-2{
+    border: 0 solid  #e3350e;;
+    border-bottom-width: 15px;
+}
+#nav-2-body-2:hover{
+    background-color: #e3350e ;
+    border: 0 solid  #e3350e;;
+    border-bottom-width: 15px;
+}
+
+
+
+#nav-2-body-3{
+    margin-bottom: 0;
+    border: 0 solid  #ee682f;;
+    border-bottom-width: 15px;
+}
+#nav-2-body-3 p{
+    margin-bottom: 0px;
+    color: black;
+}
+#nav-2-body-3:hover{
+    background-color:#ee682f ;
+    border: 0 solid  #ee682f;;
+    border-bottom-width: 15px;
+}
+
+
+
+
+
+#nav-2-body-4{
+    border: 0 solid  #ede62d;;
+    border-bottom-width: 15px;
+}
+#nav-2-body-4:hover{
+    background-color: #ede62d;
+    border: 0 solid  #ede62d;;
+    border-bottom-width: 15px;
+}
+
+
+
+#nav-2-body-5{
+    border: 0 solid  #4add5b;;
+    border-bottom-width: 15px;
+}
+#nav-2-body-5:hover{
+    background-color: #4add5b;
+    border: 0 solid  #4add5b;;
+    border-bottom-width: 15px;
+}
+
+
+#nav-2-body-6{
+    border: 0 solid  #30a7d7;;
+    border-bottom-width: 15px;
+}
+#nav-2-body-6:hover{
+    background-color: #30a7d7;
+    border: 0 solid  #30a7d7;;
+    border-bottom-width: 15px;
+}
+
+#nav-2-body-7{
+    border: 0 solid  #1b53ba;;
+    border-bottom-width: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+#nav-2-body-7:hover{
+    background-color: #1b53ba;
+    border: 0 solid  #1b53ba;;
+    border-bottom-width: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+
+
+
+
+
+
+.log-in-button{
+   position: relative;
+   left: 8%;
+   top: 200px;
+   position: fixed;
+   
+}
+
+.upper-log-in-button{
+    display: block;
+    width: 57px;
+    height: 87.25px;
+    background-color: #4ac458;
+    border-style: 4px solid black !important;
+    position: relative;
+    top: 50%;
+    border-top-right-radius:12px ;
+    border-width: 3px 3px 2px 0;
+    padding-top:20px ;
+}
+.upper-log-in-button:hover{
+    display: block;
+    width: 57px;
+    height: 87.25px;
+    background-color: #11c826;
+    border-style: 2px solid black;
+    position: relative;
+    top: 50%;
+    border-top-right-radius:12px ;
+    border-width: 3px 3px 2px 0;
+    padding-top:20px ;
+}
+
+.log-in-img{
+    text-align: center;
+}
+
+.log-in-text p{
+    color: inherit;
+    margin-top: 0;
+    font-weight: inherit;
+}
+
+.log-in-text{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 800 ;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.lower-log-in-button{
+    background-image: url(img/profile-nav-search-bg.png);
+    height: 67px;
+    width: 59px;
+    text-align: center;
+}
+
+.lower-log-in-button i{
+    color: white;
+    font-size: 28px;
+    position: relative;
+    top: 25%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.section-1-main{
+    padding-top: 40PX;
+
+    
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.section-1-body{
+    width: 578.25px;
+    background-color: white;
+}
+
+
+.section-1-body-sub-part{
+    display: flex;
+    gap: 14px;
+}
+
+.section-1-card-1{
+    background-color: #daa31c;
+    border-radius: 9px;
+}
+
+.section-1 img{
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.section-1-card-5 img{
+    width: 50%;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.section-1-card-2,.section-1-card-3,.section-1-card-4,.section-1-card-6,.section-1-card-5{
+    width: 280.09px;
+
+}
+
+.section-1-card-2{
+    background-color: #C7AA79;
+    border-radius: 9px;
+
+
+}
+.section-1-card-3{
+    background-color:#a4a4a4 ;
+    border-radius: 9px;
+
+}
+.section-1-card-4{
+    background-color: #855ac9;
+    border-radius: 9px;
+
+}
+.section-1-card-6{
+   background-color: #1b53ba;
+   border-radius: 9px;
+
+
+}
+.section-1-card-5{
+    background-color: #ee6b2f;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-1-card-5 img{
+    width: 100%;
+}
+.section-1-card-1 h3 {
+    color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.section-1-main p{
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+}
+.section-1-card-1 p{
+    color: black;
+}
+
+.section-1-card-3 p{
+    color: black;
+}
+
+.section-1-card-1 p{
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.section-1-body-2{
+    gap: 14px;
+}
+
+#section-1-body-sub-2{
+    margin-top: 14px;
+}
+
+.section-1-card-6{
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+.section-2{
+    box-sizing: border-box;
+    margin: 0%;
+    margin-top: 200px;
+
+}
+.section-2-heading div{
+    display: flex;
+    margin-left: 8%;
+    gap: 15px;
+    justify-content: baseline;
+    background-color: rgb(20, 20, 20);
+    width: 280px;
+    justify-content: center;
+    border-top-right-radius: 7px;
+    border-top-left-radius:7px ;
+
+    
+}
+.section-2-heading img{
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+}
+.section-2-heading h2{
+    margin: 0%;
+    padding-bottom: 8px;
+    color: grey;
+}
+
+
+.section-2-body>div {
+    float: right;
+}
+.section-2-body img{
+    width: 100%;
+    opacity: 60%;
+}
+
+.section-2-card-1,.section-2-card-2,.section-2-card-4,.section-2-card-5{
+    width:15%;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    border: 2px solid black;
+}
+
+.section-2-card-3{
+    max-width: 40%;
+    opacity: 100%;
+    background-color: rgb(46, 46, 46);
+    transform: translateY(-10%);
+}
+.section-2-card-3 p{
+    color: white;
+    text-transform: capitalize;
+}
+.section-2-card-3-text-heading{
+    font-size: large;
+}
+.section-2-card-3-text-body{
+   display: flex;
+   float: left;
+   gap: 20px;
+   padding-left: 20px;
+}
+.section-2-card-3 img{
+    background-color: rgb(97, 97, 97);
+    opacity: 100%;
+}
+
+.section-2-card-3-text-heading{
+    display: flex;
+    gap: 60%;
+    justify-content: center;
+
+}
+#green{
+    background-color: #11c826;
+    color: rgb(22, 22, 22);
+    border-radius: 4px;
+    text-align: center;
+}
+.section-2-card-text p{
+    color: white;
+}
+
+.section-2-card-img{
+    background-color: rgb(119, 119, 119);
+}
+
+
+
+
+
+
+
+.section-3{
+    clear: both;
+}
+.section-3 img{
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.section-3-card-text>p{
+    padding: 15px;
+    padding-top: 12px;
+}
+.section-3-card-text>h3{
+    padding: 15px;
+    padding-bottom: 0px;
+    color: white;
+}
+.section-3-card-3 p{
+    color: white;
+}
+.section-3-body-sub{
+    width: 281.19px;
+}
+.section-3-body-sub-2{
+    transform: translateY(-25px);
+}
+.section-3-card-1{
+  background-color: #ee682f;
+  border-radius: 4px;
+} .section-3-card-2 {
+   background-color: #30a7d7;
+   border-radius: 4px;
+
+}.section-3-card-3{
+   background-color: rgb(75, 75, 75);
+   border-radius: 4px;
+
+} .section-3-card-4 {
+   background-color: #daa31c;
+   border-radius: 4px;
+
+}.section-3-card-5 {
+   background-color: #11c826;
+   border-radius: 4px;
+
+}.section-3-card-6{
+  background-color: #855ac9;
+  border-radius: 4px;
+
+
+}
+.section-3-body-heading h1{
+    color: grey;
+}
+.section-3{
+    margin-top: 20px;
+    padding-top: 90px;
+}
+.section-3-body>div{
+  display: flex; 
+  justify-content: center;    
+  gap: 12px; 
+}
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(29, 29, 29);
+}
+footer p,input,div{
+    color: white;
+}
+.footer-upper h1{
+    padding-bottom: 20px;
+    color: white;
+    font-size: xx-large;
+}
+
+.footer-checks{
+    border: none;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 100px;
+
+}
+
+.footer-ckecks{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footer-checks input{
+    display: inline-block;
+    width: 12px;
+    padding-top: 6px;
+}
+
+.footer-forms{
+    width: 25%;
+    font-size: 32px;
+}
+
+.date{
+    width: 49% ;
+    padding-left:20px;
+
+
+}
+.date input{
+    color: grey;
+}
+
+.contry{
+   width: 49%;
+}
+
+.date-and-contry{
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer-forms input{
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    color: grey;
+    padding: o 20px;
+
+}
+
+.footer-forms button{
+    width: 50%;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 12px;
+    color: white;
+    background-color: grey;
+
+}
+
+
+
+
+
+
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom-main{
+    width: 75%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.footer-left,.footer-right,.footer-middle{
+    width:25%;
+}
+
+.footer-left h3{
+    color: white;
+    font-size: large;
+}
+
+.footer-left li{
+    padding-top: 12px;
+}
+.footer-middle i{
+    font-size: 38px;
+    color: white;
+    
+
+}
+
+.footer-right li{
+     padding-top: 12px;
+}
